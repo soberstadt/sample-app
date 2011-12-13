@@ -105,3 +105,23 @@ footer {
 footer nav {
 	float: none;
 }
+
+/* User show page */
+.main, .sidebar {
+	display: inline-block;
+	padding: 1em;
+}
+
+.main {
+	width: 60%;
+}
+
+.sidebar {
+	width: 30%;
+	background: #ffc;
+}
+
+.profile img.gravatar {
+	border: 1px solid #999;
+	margin-bottom: -15px;
+}
