@@ -56,8 +56,13 @@ describe "LayoutLinks" do
       integration_sign_in @user
     end
     
-    # it "should visit succeed" do
+    # it "should visit root successfully" do
       # visit root_path
+      # response.should be_success
+    # end
+#     
+    # it "should visit user successfully" do
+      # visit user_path
       # response.should be_success
     # end
 #     
