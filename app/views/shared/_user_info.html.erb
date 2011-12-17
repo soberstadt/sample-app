@@ -1,0 +1,7 @@
+<div class="user_info">
+	<% grav = gravatar_for current_user, :size => 30 %>
+	<%= link_to grav, user_path(current_user)%>
+	<strong>Name</strong> <%= current_user.name %><br />
+	<strong>URL</strong> <%= link_to user_path(current_user), current_user %><br />
+	<strong>Microposts</strong> <%= current_user.microposts.count %>
+</div>

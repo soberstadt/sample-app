@@ -121,8 +121,9 @@ footer nav {
 }
 
 .sidebar {
-	width: 30%;
 	background: #ffc;
+	width: 26%;
+	position: absolute;
 }
 
 .profile img.gravatar {
@@ -146,9 +147,9 @@ footer nav {
 #error_explanation {
 	background: #f0f0f0;
 	border: 2px solid red;
+	display: block;
 	margin-bottom: 20px;
 	padding: 7px 7px 12px 7px;
-	width: 400px;
 }
 
 #error_explanation h2 {
@@ -178,4 +179,62 @@ ul.users {
 
 .users li {
 	list-style: none;
+}
+
+/* Micropost Style */
+
+h1.micropost {
+	margin-bottom: 0.3em;
+}
+
+table.microposts {
+	margin-top: 1em;
+}
+
+table.microposts tr {
+	height: 70px;
+}
+
+table.microposts tr td {
+	border-top: 1px solid #ccc;
+	vertical-align: top;
+}
+
+table.microposts tr td.gravatar {
+	width: 50px;
+}
+
+table.microposts tr td.micropost {
+	padding-top: 10px;
+}
+
+table.microposts span.timestamp {
+	display: block;
+	font-size: 85%;
+	color: #666;
+}
+
+div.user_info img {
+	padding-right: 0.1em;
+}
+
+div.user_info a {
+	text-decoration: none;
+}
+
+div.user_info span.user_name {
+	position: absolute;
+}
+
+div.user_info span.microposts {
+	font-size: 80%;
+}
+
+form.new_micropost {
+	margin-bottom: 2em;
+}
+
+form.new_micropost textarea {
+	height: 4em;
+	margin-bottom: 0;
 }
