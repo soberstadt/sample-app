@@ -10,6 +10,7 @@ group :production do
   gem 'therubyracer-heroku', '0.8.1.pre3'
 end
 group :development, :test do
+  gem 'rspec-rails'
   gem 'sqlite3'
 end
 
@@ -18,13 +19,11 @@ gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'will_paginate', '3.0.pre2'
 
 group :development do
-  gem 'rspec-rails'
   gem 'annotate'
   gem 'faker', '0.3.1'
 end
 
 group :test do
-  gem 'rspec-rails'
   gem 'webrat'
   gem 'spork'
   gem 'factory_girl_rails', '1.0'
